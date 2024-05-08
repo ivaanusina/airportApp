@@ -54,6 +54,7 @@ while True:
     elif option == 5:
         operator = input("Enter the name of the flight operator: ")
         print(airport_controller.listAirportsByOperators(operator))
+        print("hola")
 
     elif option == 6:
         iata = str(input("Enter IATA of the airport (or 'all' for all airports): "))
